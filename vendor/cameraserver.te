@@ -1,5 +1,0 @@
-allow cameraserver device:dir { open read };
-allow cameraserver gpu_device:chr_file rw_file_perms;
-allow cameraserver video_device:chr_file { ioctl open read write };
-
-allow cameraserver system_server:unix_stream_socket { read write };

@@ -1,4 +1,0 @@
-type spu, domain;
-type spu_exec, exec_type, vendor_file_type, file_type;
-
-init_daemon_domain(spu)

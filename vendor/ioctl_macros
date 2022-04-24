@@ -1,9 +1,0 @@
-# TODO (b/deprecate-old-ipc-router): Remove 4.9 ipc-router compatibility `socket' when kernel 4.14 is final
-define(`msm_sock_ipc_ioctls', `{
-IPC_ROUTER_IOCTL_GET_VERSION
-IPC_ROUTER_IOCTL_GET_MTU
-IPC_ROUTER_IOCTL_LOOKUP_SERVER
-IPC_ROUTER_IOCTL_GET_CURR_PKT_SIZE
-IPC_ROUTER_IOCTL_BIND_CONTROL_PORT
-IPC_ROUTER_IOCTL_CONFIG_SEC_RULES
-}')
