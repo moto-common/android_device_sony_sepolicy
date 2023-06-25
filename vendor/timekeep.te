@@ -11,8 +11,8 @@ init_daemon_domain(timekeep)
 allow timekeep self:capability sys_time;
 
 # Write to /data/vendor/time/ats_2
-allow timekeep timekeep_vendor_data_file:dir rw_dir_perms;
-allow timekeep timekeep_vendor_data_file:file create_file_perms;
+allow timekeep vendor_time_data_file:dir rw_dir_perms;
+allow timekeep vendor_time_data_file:file create_file_perms;
 
 # Set persist.vendor.timeadjust
 set_prop(timekeep, vendor_timekeep_prop)
